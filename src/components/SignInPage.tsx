@@ -66,14 +66,24 @@ const SignInPage = ({ onSignIn = () => {} }: SignInPageProps) => {
         className="w-full max-w-md"
       >
         <div className="text-center mb-8">
-          <motion.h1
-            className="text-4xl font-bold text-primary mb-2"
-            initial={{ scale: 0.9 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 0.2 }}
-          >
-            MobiChama
-          </motion.h1>
+          <div className="flex flex-col items-center mb-2">
+            <motion.img
+              src="/mobichama-logo.svg"
+              alt="MobiChama Logo"
+              className="w-16 h-16 mb-2"
+              initial={{ scale: 0.9, rotate: -10 }}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+            />
+            <motion.h1
+              className="text-4xl font-bold text-primary"
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.3 }}
+            >
+              MobiChama
+            </motion.h1>
+          </div>
           <p className="text-muted-foreground">
             Digital Group Savings Platform
           </p>

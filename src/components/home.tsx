@@ -46,7 +46,14 @@ const Home = ({ user, onSignOut = () => {} }: HomeProps) => {
             <Button variant="outline" size="icon" className="md:hidden">
               <Menu className="h-5 w-5" />
             </Button>
-            <h1 className="text-xl font-bold text-primary">MobiChama</h1>
+            <div className="flex items-center gap-2">
+              <img
+                src="/mobichama-logo.svg"
+                alt="MobiChama Logo"
+                className="w-8 h-8"
+              />
+              <h1 className="text-xl font-bold text-primary">MobiChama</h1>
+            </div>
           </div>
 
           <div className="flex items-center gap-2">

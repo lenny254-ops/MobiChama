@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Kenyan Flag Colors -->
+  <circle cx="60" cy="60" r="58" fill="#006B3C" stroke="#FFFFFF" stroke-width="4"/>
+  
+  <!-- Inner Circle with Traditional Pattern -->
+  <circle cx="60" cy="60" r="45" fill="#CE1126" opacity="0.1"/>
+  
+  <!-- Acacia Tree Silhouette (Iconic Kenyan Symbol) -->
+  <path d="M60 25 C50 30, 45 35, 40 45 C35 50, 30 55, 25 65 C30 60, 35 58, 45 60 C50 62, 55 65, 60 70 C65 65, 70 62, 75 60 C85 58, 90 60, 95 65 C90 55, 85 50, 80 45 C75 35, 70 30, 60 25 Z" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Coins Stack (Representing Savings) -->
+  <ellipse cx="35" cy="75" rx="8" ry="3" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  <ellipse cx="35" cy="72" rx="8" ry="3" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  <ellipse cx="35" cy="69" rx="8" ry="3" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  
+  <!-- Mobile Phone Icon -->
+  <rect x="75" y="65" width="12" height="20" rx="2" fill="#FFFFFF" stroke="#006B3C" stroke-width="1"/>
+  <rect x="77" y="67" width="8" height="12" fill="#006B3C"/>
+  <circle cx="81" cy="82" r="1" fill="#FFFFFF"/>
+  
+  <!-- Traditional Kenyan Pattern Elements -->
+  <path d="M60 15 L65 20 L60 25 L55 20 Z" fill="#CE1126"/>
+  <path d="M45 45 L50 50 L45 55 L40 50 Z" fill="#CE1126" opacity="0.7"/>
+  <path d="M75 45 L80 50 L75 55 L70 50 Z" fill="#CE1126" opacity="0.7"/>
+  
+  <!-- Unity Hands (Representing Group Savings) -->
+  <path d="M50 85 C48 83, 46 85, 48 87 C50 89, 52 87, 50 85" fill="#FFFFFF"/>
+  <path d="M70 85 C68 83, 66 85, 68 87 C70 89, 72 87, 70 85" fill="#FFFFFF"/>
+  <path d="M60 88 C58 86, 56 88, 58 90 C60 92, 62 90, 60 88" fill="#FFFFFF"/>
+  
+  <!-- Text Elements -->
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#006B3C">MobiChama</text>
+</svg>
